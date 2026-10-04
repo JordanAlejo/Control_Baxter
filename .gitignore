@@ -1,7 +1,13 @@
-
+# Entornos virtuales
+venv/
 .venv/
-.hardware/
-.corl_demo/
-.Baxter del repositorio/
-.g1_zed_articulated/
 
+# Carpetas de hardware/simulacion
+hardware/
+corl_demo/
+g1_zed_articulated/
+Baxter del repositorio/
+
+# Python
+__pycache__/
+*.py[cod]
