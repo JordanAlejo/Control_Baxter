@@ -1,0 +1,23 @@
+<mujoco model="erwin_cube_blender">
+  <default>
+    <default class="erwin_cube_blender_visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="erwin_cube_blender_collision">
+      <geom group="3" type="mesh" solref="0.004" solimp="0.95 0.98" condim="6" contype="1" conaffinity="1"/>
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" name="shaded_cube" file="real2sim/erwin_cube_blender/cube_texture.png"/>
+    <material name="erwin_cube_material.001" texture="shaded_cube" specular="0.5" shininess="0.5"/>
+    <mesh file="real2sim/erwin_cube_blender/cube_1_texture_meter_units.obj" name="erwin_cube_blender_visual_0" scale="1 1 1"/>
+    <mesh file="real2sim/erwin_cube_blender/cube_1_texture_meter_units.obj" name="erwin_cube_blender_collision" scale="1 1 1" />
+  </asset>
+  <worldbody>
+    <body name="erwin_cube_blender" pos="0.5 0.01 1.23">
+      <freejoint/>
+      <geom material="erwin_cube_material.001" mesh="erwin_cube_blender_visual_0" class="erwin_cube_blender_visual"/>
+      <geom mesh="erwin_cube_blender_collision" rgba="1 1 1 0" class="erwin_cube_blender_collision" mass="0.5"/>
+    </body>
+  </worldbody>
+</mujoco>
