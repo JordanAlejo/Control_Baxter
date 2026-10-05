@@ -1,7 +1,9 @@
 # Elavorado por: 
-Jordan Alejandro Rodirguez Torres 
-Nicolas Robayo Gomez
-Camilo
+**Jordan Alejandro Rodirguez Torres**
+
+**Nicolas Robayo Gomez**
+
+**Camilo Molano**
 
 Universidad Militar nueva granada
  
