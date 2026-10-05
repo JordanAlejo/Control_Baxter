@@ -7,6 +7,8 @@ hardware/
 corl_demo/
 g1_zed_articulated/
 Baxter del repositorio/
+data/
+
 
 # Python
 __pycache__/

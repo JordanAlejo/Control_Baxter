@@ -1,4 +1,4 @@
-# Elavorado por: 
+# Elaborado por: 
 **Jordan Alejandro Rodirguez Torres**
 
 **Nicolas Robayo Gomez**
